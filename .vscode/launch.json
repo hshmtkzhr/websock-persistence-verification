@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${fileDirname}",
+            "env": {},
+            "args": ["--mode", "client", "--origin", "localhost:8080", "--affinity-id", "9e290ecd-e0ee-465d-8567-5a50d50aebc8"]
+        }
+    ]
+}

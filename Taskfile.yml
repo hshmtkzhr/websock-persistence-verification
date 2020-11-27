@@ -1,0 +1,12 @@
+version: '2'
+
+vars:
+  TOOL_NAME: wspersistence
+
+tasks:
+  build:
+    desc: exec go build for prod
+    dir: ./
+    cmds:
+      - GOOS=linux GOARCH=amd64 go build -a -tags netgo -installsuffix netgo -o ./bin/{{.TOOL_NAME}}
+      - GOOS=darwin GOARCH=amd64 go build -a -tags netgo -installsuffix netgo -o ./bin/{{.TOOL_NAME}}.mac

@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "SSH FS - kube-master",
+			"uri": "ssh://kube-master/"
+		}
+	],
+	"settings": {}
+}

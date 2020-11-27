@@ -1,0 +1,2 @@
+# websock-persistence-verification
+This is a code for verifying functionality and behavior of websock and load-balancer session affinity. Depending on gorilla websock feature to upgrade http session to websock.
